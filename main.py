@@ -55,8 +55,8 @@ def enter_the_void():
     """входим в систему"""
     WebDriverWait(browser, 10).until(expected_conditions.element_to_be_clickable(
         (By.ID, 'ember46'))).click()
-    browser.find_element(By.ID, 'id_login_email').send_keys('andko2013@gmail.com')
-    browser.find_element(By.ID, 'id_login_password').send_keys('12august')
+    browser.find_element(By.ID, 'id_login_email').send_keys('####')
+    browser.find_element(By.ID, 'id_login_password').send_keys('####')
     # browser.find_element(By.CLASS_NAME, 'sign-form__btn').click()
     browser.find_element(By.CSS_SELECTOR, 'button[class="sign-form__btn button_with-loader "]').click()
     time.sleep(10)
